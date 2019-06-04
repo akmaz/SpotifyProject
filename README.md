@@ -20,13 +20,14 @@ In order to perfom the testing, run MainPageTest.java file.
 Address of a website being tested:
 https://www.spotify.com/uk/
 
-The test convers the main page, without the footer.
+The test convers the header and the main content, without the footer.
 
 Screenshot of a wesbite being tested:
-![alt text](images/spotify.jpg)
+
+![alt text](SpotifyProject/images/spotify.jpg)
 
 Sample screenshot of the Excel file:
-ContactUsPage/images/ alt text alt text
+![alt text](SpotifyProject/images/excel.jpg)
 
 ### Acknowledgments
 * _Selenium Testing Tools Cookbook_, Second Edition, Unmesh Gundecha
