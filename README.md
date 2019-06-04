@@ -24,10 +24,10 @@ The test convers the header and the main content, without the footer.
 
 Screenshot of a wesbite being tested:
 
-![alt text](SpotifyProject/images/spotify.jpg)
+![alt text](Spotify_Project/images/spotify.jpg)
 
 Sample screenshot of the Excel file:
-![alt text](SpotifyProject/images/excel.jpg)
+![alt text](Spotify_Project/images/excel.jpg)
 
 ### Acknowledgments
 * _Selenium Testing Tools Cookbook_, Second Edition, Unmesh Gundecha
