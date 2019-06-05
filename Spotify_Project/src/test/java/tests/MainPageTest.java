@@ -78,7 +78,10 @@ public class MainPageTest extends BaseTest{
 		 * verifying the Download link
 		 */
 		mainPage.goToMainPage()
-				.clickOnDownloadLink();
+				.clickOnDownloadLink()
+				.handleDownloadPopUp()
+				.assertTitle()
+				.assertUrl();
 		
 	}
 	
@@ -110,10 +113,10 @@ public class MainPageTest extends BaseTest{
 				.clickOnGetPremiumButton()
 				.assertUrl();
 		
-		//mainPage.goToMainPage()
-				//.clickOnTermsApplyLink()
-				//.assertUrl()
-				//.assertTitle();
+		mainPage.goToMainPage()
+				.clickOnTermsApplyLink()
+				.assertUrl()
+				.assertTitle();
 		
 	}
 	
