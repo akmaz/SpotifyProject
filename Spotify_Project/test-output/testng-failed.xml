@@ -6,7 +6,9 @@
       <class name="tests.MainPageTest">
         <methods>
           <include name="closeBrowser"/>
+          <include name="cookies"/>
           <include name="headerLinks"/>
+          <include name="mainPageLoading"/>
           <include name="startBrowser"/>
         </methods>
       </class> <!-- tests.MainPageTest -->
