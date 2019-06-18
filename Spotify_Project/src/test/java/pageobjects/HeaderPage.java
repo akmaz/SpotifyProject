@@ -17,8 +17,9 @@ public class HeaderPage extends BasePage {
 	
 	// page elements
 
-	@FindBy(xpath="//header[@id='js-navbar']//a[@href='/uk/account/overview/']")
-	public WebElement spotifyIcon;
+	
+	@FindBy(xpath="//a[@href='/uk/']")
+	private WebElement spotifyIcon;
 	
 	@FindBy(xpath="//a[@id='nav-link-premium']")
 	private WebElement premiumLink;

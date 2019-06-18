@@ -20,12 +20,7 @@ public class MainPage extends HeaderPage {
 	 */
 	
 	private static final String path = "https://www.spotify.com/uk/";
-	private static final String text1Container1 = "Music for everyone.";
-	private static final String text2Container1 = "Millions of songs. No credit card needed.";
-	private static final String text1Container2 = "Get 3 months of Premium for £0.99.";
-	private static final String text2Container2 = "Only £9.99/month after. Cancel anytime.";
-	private static final String text3Container2 = "Offer not available to users who already tried Premium. Offer ends 30 Jun 2019. Terms apply.";
-	
+	private static final String title = "Music for everyone - Spotify";
 	
 	/*
 	 * page elements
@@ -36,25 +31,7 @@ public class MainPage extends HeaderPage {
 	
 	@FindBy(xpath="//div[@id='js-message-bar-cookie-notice']//button[@class='close']")
 	private WebElement cookiesCloseButton;
-	
-	@FindBy(css=".row.row-simplified")
-	private WebElement textFieldAboveSpotifyButton;
-	
-	@FindBy(xpath="//header[@class='promotion-header']")
-	private WebElement textFieldAbovePremiumButton;
-	
-	@FindBy(xpath="//a[@id='generic-btn-premium']")
-	private WebElement getSpotifyFreeButton;
-	
-	@FindBy(xpath="//a[@href='/purchase/offer/3m-for-cheap']")
-	private WebElement getPremiumButton;
-	
-	@FindBy(xpath="//p[@class='legal_disclaimer']")
-	private WebElement textBelowPremiumButton;
-	
 
-	@FindBy(xpath="//p[@class='legal_disclaimer'/a]")
-	private WebElement termsApplyLink;
 	
 	//constructor
 
@@ -80,27 +57,7 @@ public class MainPage extends HeaderPage {
 		
 		return this;
 	}
-	
-	public SignUpPage clickOnGetSpotifyFreeButton() {
-		click(getSpotifyFreeButton);
-		
-		return new SignUpPage(driver);
-	}
-	
-	public MainPage assertTextContainer1() {
-		assertTrue(textFieldAboveSpotifyButton.getText().contains(text1Container1));
-		assertTrue(textFieldAboveSpotifyButton.getText().contains(text2Container1));
-		
-		return this;
-	}
-	
-	public MainPage assertTextContainer2() {
-		assertTrue(textFieldAbovePremiumButton.getText().contains(text1Container2));
-		assertTrue(textFieldAbovePremiumButton.getText().contains(text2Container2));
-		assertTrue(textBelowPremiumButton.getText().contains(text3Container2));
-		
-		return this;
-	}
+
 	
 	public MainPage checkCookiesFieldRemoved() {
 		assertTrue(driver.findElements(By.xpath("//div[@id='js-message-bar-cookie-notice']")).size()==0);
@@ -108,15 +65,10 @@ public class MainPage extends HeaderPage {
 		return this;
 	}
 	
-	public LogInPage clickOnGetPremiumButton() {
-		click(getPremiumButton);
+	public MainPage assertTitle() {
+		assertCorrectTitle(title);
 		
-		return new LogInPage(driver);
+		return this;
 	}
 	
-	public TermsConditionsPage clickOnTermsApplyLink() {
-		click(termsApplyLink);
-		
-		return new TermsConditionsPage(driver);
-	}
 }

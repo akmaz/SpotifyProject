@@ -44,6 +44,14 @@ public class MainPageTest extends BaseTest{
 		MainPage mainPage = new MainPage(driver);
 		
 		/*
+		 * verifying the SPotify icon
+		 */
+		mainPage.goToMainPage()
+				.clickOnSpotifyIcon()
+				.assertUrl()
+				.assertTitle();
+		
+		/*
 		 * verifying the Premium link
 		 */
 		mainPage.goToMainPage()
@@ -74,50 +82,16 @@ public class MainPageTest extends BaseTest{
 				.clickOnLogInLink()
 				.assertUrl();
 		
-		/*
-		 * verifying the Download link
+		
+		 /* verifying the Download link
 		 */
 		mainPage.goToMainPage()
 				.clickOnDownloadLink()
-				.handleDownloadPopUp()
 				.assertTitle()
 				.assertUrl();
 		
 	}
 	
-	/*
-	 * TS003	Verify if the first container displays the correct text and buttons
-	 */
 	
-	@Test
-	public void firstContainer() {
-		MainPage mainPage = new MainPage(driver);
-		
-		mainPage.goToMainPage()
-				.assertTextContainer1()
-				.clickOnGetSpotifyFreeButton()
-				.assertTitle();
-		
-	}
-	
-	/*
-	 * TS004	Verify if the second container displays the correct text and buttons
-	 */
-
-	@Test
-	public void secondContainer() {
-		MainPage mainPage = new MainPage(driver);
-		
-		mainPage.goToMainPage()
-				.assertTextContainer2()
-				.clickOnGetPremiumButton()
-				.assertUrl();
-		
-		mainPage.goToMainPage()
-				.clickOnTermsApplyLink()
-				.assertUrl()
-				.assertTitle();
-		
-	}
 	
 }
