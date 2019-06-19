@@ -1,5 +1,5 @@
 # Spotify_Project
-A Page Object model implementation of a test scenario covering the testing of the main Spotify page - UK version. Testing performed in Chrome browser. Code implemented in Eclipse using Selenium WebDriver and TestNG.
+A Page Object model implementation of a test scenario covering the testing of the header of the main Spotify page - UK version. Testing performed in Chrome browser. Code implemented in Eclipse using Selenium WebDriver and TestNG.
 
 ### Prerequisites
 To run the project, you will need:
