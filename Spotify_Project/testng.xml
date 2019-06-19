@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spotify Main page" verbose="1">
+  <test name="Header in Main page">
+    <classes>
+      <class name="pageobjects.HelpPage"/>
+      <class name="pageobjects.HeaderPage"/>
+      <class name="tests.MainPageTest"/>
+      <class name="tests.BaseTest"/>
+      <class name="pageobjects.DownloadPage"/>
+      <class name="pageobjects.SignUpPage"/>
+      <class name="pageobjects.LogInPage"/>
+      <class name="pageobjects.BasePage"/>
+      <class name="pageobjects.PremiumPage"/>
+      <class name="pageobjects.MainPage"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            
