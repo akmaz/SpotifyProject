@@ -7,7 +7,7 @@ To run the project, you will need:
 * JDK 8 - you can download [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 * Eclipse - you can download [here](https://www.eclipse.org/downloads/packages/).
 * Maven integration for Eclipse.
-* TestNG - you can download 'TestNG for Eclipse' plug-in.
+* TestNG - you can download 'TestNG for Eclipse' plug-in from Eclipse Marketplace.
 * Chrome Driver - It's already added to the project in the src/test/resources/drivers folder.
 
 Maven uses the below dependencies:
@@ -20,7 +20,7 @@ In order to perfom the testing, run MainPageTest.java file.
 Address of a website being tested:
 https://www.spotify.com/uk/
 
-The test convers the header and the main content, without the footer.
+The test convers the header content.
 
 Screenshot of a wesbite being tested:
 
