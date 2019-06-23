@@ -64,11 +64,6 @@ public class HeaderPage extends BasePage {
 		return new HelpPage(driver);
 	}
 	
-	public DownloadPage clickOnDownloadLink() {
-		click(downloadLink);
-		
-		return new DownloadPage(driver);
-	}
 	
 	public SignUpPage clickOnSignUpLink() {
 		click(signUpLink);

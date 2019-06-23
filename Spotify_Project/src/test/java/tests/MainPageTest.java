@@ -82,14 +82,6 @@ public class MainPageTest extends BaseTest{
 				.clickOnLogInLink()
 				.assertUrl();
 		
-		
-		 /* verifying the Download link
-		 */
-		mainPage.goToMainPage()
-				.clickOnDownloadLink()
-				.assertTitle()
-				.assertUrl();
-		
 	}
 	
 	

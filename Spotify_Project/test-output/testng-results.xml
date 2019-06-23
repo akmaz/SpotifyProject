@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41228" started-at="2019-06-19T12:06:37Z" finished-at="2019-06-19T12:07:18Z">
+  <suite name="Default suite" duration-ms="40099" started-at="2019-06-23T19:11:49Z" finished-at="2019-06-23T19:12:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41228" started-at="2019-06-19T12:06:37Z" finished-at="2019-06-19T12:07:18Z">
+    <test name="Default test" duration-ms="40099" started-at="2019-06-23T19:11:49Z" finished-at="2019-06-23T19:12:29Z">
       <class name="tests.MainPageTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:tests.MainPageTest@3e6fa38a]" name="startBrowser" is-config="true" duration-ms="5304" started-at="2019-06-19T12:06:37Z" finished-at="2019-06-19T12:06:43Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:tests.MainPageTest@14acaea5]" name="startBrowser" is-config="true" duration-ms="4967" started-at="2019-06-23T19:11:49Z" finished-at="2019-06-23T19:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:tests.MainPageTest@3e6fa38a]" name="cookies" duration-ms="4745" started-at="2019-06-19T12:06:43Z" finished-at="2019-06-19T12:06:47Z">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:tests.MainPageTest@14acaea5]" name="cookies" duration-ms="5894" started-at="2019-06-23T19:11:54Z" finished-at="2019-06-23T19:12:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="headerLinks()[pri:0, instance:tests.MainPageTest@3e6fa38a]" name="headerLinks" duration-ms="28763" started-at="2019-06-19T12:06:47Z" finished-at="2019-06-19T12:07:16Z">
+        <test-method status="PASS" signature="headerLinks()[pri:0, instance:tests.MainPageTest@14acaea5]" name="headerLinks" duration-ms="26533" started-at="2019-06-23T19:12:00Z" finished-at="2019-06-23T19:12:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerLinks -->
-        <test-method status="PASS" signature="mainPageLoading()[pri:0, instance:tests.MainPageTest@3e6fa38a]" name="mainPageLoading" duration-ms="2177" started-at="2019-06-19T12:07:16Z" finished-at="2019-06-19T12:07:18Z">
+        <test-method status="PASS" signature="mainPageLoading()[pri:0, instance:tests.MainPageTest@14acaea5]" name="mainPageLoading" duration-ms="2427" started-at="2019-06-23T19:12:26Z" finished-at="2019-06-23T19:12:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainPageLoading -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.MainPageTest@3e6fa38a]" name="closeBrowser" is-config="true" duration-ms="173" started-at="2019-06-19T12:07:18Z" finished-at="2019-06-19T12:07:18Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.MainPageTest@14acaea5]" name="closeBrowser" is-config="true" duration-ms="226" started-at="2019-06-23T19:12:29Z" finished-at="2019-06-23T19:12:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
